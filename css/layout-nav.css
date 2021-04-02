@@ -1,0 +1,39 @@
+.layout-nav li a{
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+}
+
+.icon{
+    flex: 0 0 1em;
+    font-size: 1.5em;
+}
+.button-text{
+    font-size: 1.5em;
+}
+.button-text span{
+    display: block;
+    font-size: 50%;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+@media (min-width: 10em){
+    .layout-nav ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .layout-nav li {
+        display: flex;
+        flex: 1 0 4em;
+    }
+}
+
+
+
+
+
+
+
+
